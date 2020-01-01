@@ -1,0 +1,52 @@
+convex opt
+
+based on EE364 notes
+
+2. Convex sets
+norm balls
+intersection of convex sets vs union 
+positive semidefinite cone, the set of of symmetric matrices 
+
+3. Convex Functions
+
+first order condition for convexity 
+tangent line as global underestimator
+
+second order condition for convexity
+iff f(x) is twice differentiable, and its hessian is positive-semidefinite
+
+Jensen's Inequality
+f(E(x)) <= E(f(x))
+
+Sublevel Sets
+alpha sublevel set
+a-sublevel set is that in which all points f(x) <= a 
+
+Examples
+single var:
+exponetial 
+negative log
+affine functions 
+norms 
+
+4. Convex Optimization Problems
+
+global optimality in a convex problem
+all local optima are global optima
+
+Special Cases
+Semidefinite programming
+
+SVM - quadratic opt with linear constraints 
+constrained least squares - quadratic opt with linear constraints
+max likelihood for logistic - QP
+
+=====================================
+
+part 2 
+
+Lagrange Duality 
+
+complementary slackness / KKT
+
+active constraints ==> support vectors

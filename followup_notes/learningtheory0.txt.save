@@ -1,0 +1,37 @@
+Learning theory 
+
+empirical risk minimization 
+arg min(theta) --> training error 
+
+change view of this algorithm, from choosing a set of parameters, theta, to choosing a function 
+learning algorithm choosing from a set of linear classifiers 
+as you vary theta, you get different linear classifiers 
+
+emp risk min --> choosing the function from hypothesis class that minimizes training error 
+
+=======================
+
+Genearlization error
+
+training error is an approximation of generalization error 
+epsilon(h) --> pr(new sample from population will be mislabeled)
+
+lemma 1
+union bound 
+given k events, pr(a1 or a2 or ... ak) <= pr(a1) + ... + pr(ak)
+axiom of probability 
+
+lemma 2 - hoffield inequality 
+series of bernoulli random variables, IID
+mass of tails is less than or eq to 2*Exp(-2*g^2)
+however, the mass decreases exponentially with the value of m 
+
+emp risk minimization
+case of finite hypothesis classes
+h --> a bound on the generalization error, using training error as estimate
+
+
+
+
+
+
